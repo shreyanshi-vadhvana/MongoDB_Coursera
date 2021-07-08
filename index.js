@@ -5,7 +5,7 @@ const url = 'mongodb://localhost:27017/';
 const dbname = 'conFusion';
 
 MongoClient.connect(url, (err, client) => {
-
+    
     assert.equal(err,null);
 
     console.log('Connected correctly to server');
